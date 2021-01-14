@@ -20,4 +20,4 @@ npm install
 
 And then Just open it in the browser.
 
-## enjoy your powerfull application
+## Enjoy your powerfull application
