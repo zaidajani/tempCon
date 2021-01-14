@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celcius to fahrenheit</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navTop">
+    <center>°C &#10230; °F</center>
+  </nav>
+  <div class="container">
+    <div class="card tata">
+      <div class="imageData">
+        <h1 class="temp" id="answer">
+          °C -> °F
+        </h1>
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+            <div class="mb-3">
+              <label for="temp" class="form-label">Temp in Celcius</label>
+              <input type="number" class="form-control" id="temp">
+              <div class="mt-4">
+                <button class="btn btn-success" id="calculate">Calculate</button>
+              </div>
+            </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
