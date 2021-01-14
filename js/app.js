@@ -10,6 +10,5 @@ function convert(celcius) {
 }
 
 calculateButton.addEventListener('click', () => {
-  console.log(temp.value);
   answer.innerText = convert(temp.value) + '°F';
 });
