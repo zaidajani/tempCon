@@ -2,7 +2,7 @@
 
 ## What is this
 
-It is a temperature convertor made using javascript, html, css and bootstrap.
+It is a temperature convertor made using javascript, HTML, CSS and Bootstrap.
 
 ![demo](./images/demo.gif)
 
